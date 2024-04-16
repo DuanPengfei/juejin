@@ -200,31 +200,6 @@
       ]
     }
   },
-  "api/juejin/policy.ts": {
-    "name": "api_juejin_policy",
-    "description": "Say hello to the user when he introduces himself",
-    "input": {
-      "type": "object",
-      "properties": {
-        "name": {
-          "description": "name of user",
-          "type": "string"
-        }
-      }
-    },
-    "output": {
-      "type": "object",
-      "properties": {
-        "message": {
-          "description": "reply to greet the user",
-          "type": "string"
-        }
-      },
-      "required": [
-        "message"
-      ]
-    }
-  },
   "api/juejin/search.ts": {
     "name": "api_juejin_search",
     "description": "Search top articles for specific topic on juejin.cn 指定主题搜索掘金（juejin.cn）上的热门文章",
